@@ -17,7 +17,7 @@ public class Student {
         return this.Name;
     }
     
-    public String getName(String newName) {
+    public String setName(String newName) {
         return (this.Name = newName);
     }
     
